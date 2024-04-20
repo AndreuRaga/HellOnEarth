@@ -476,7 +476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   test: hola
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
-  actionPoints: {fileID: 11400000, guid: 48d272feb0b0eb346a16713700b8e50b, type: 2}
 --- !u!1 &4873873512109249108
 GameObject:
   m_ObjectHideFlags: 0

@@ -17575,20 +17575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3315276138349668767, guid: 006ff52913403134a8d05a707d866318,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -116.6
-      objectReference: {fileID: 0}
     - target: {fileID: 6317117562260503447, guid: 006ff52913403134a8d05a707d866318,
         type: 3}
       propertyPath: m_Name
       value: HUD Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 8996725867399017121, guid: 006ff52913403134a8d05a707d866318,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
