@@ -35,6 +35,31 @@ public class GameManager : Singleton<GameManager>
             Application.Quit();
         #endif
     }
+    [SerializeField] GameObject pauseMenu;
+    private bool paused = false;
+    public bool pause {
+        get {
+            return paused;
+        }
+        set {
+            paused = value;
+            if (paused)
+            {
+                Time.timeScale = 0;
+                pauseMenu.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 1;
+                pauseMenu.SetActive(false);
+            }
+        }
+    }
+    const int MAIN_MENU_SCENE_INDEX = 1;
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(MAIN_MENU_SCENE_INDEX);
+    }
 
     void Start()
     {
