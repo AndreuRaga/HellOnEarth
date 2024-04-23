@@ -152,7 +152,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2594828090740977004}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -185,4 +185,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   test: hola
   hitPoints: {fileID: 11400000, guid: 88175a28f7e87ae4fbbd53c4f42b3952, type: 2}
-  actionPoints: {fileID: 11400000, guid: 1ef9c481196226b4fad32d2a47e08a71, type: 2}
