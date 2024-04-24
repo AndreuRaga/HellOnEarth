@@ -34,7 +34,7 @@ Transform:
   - {fileID: 3274344165284165607}
   - {fileID: 6079766088230120262}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &7416450066624897328
 SortingGroup:
@@ -58,7 +58,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6079766088230120262}
   - component: {fileID: 797460090609148330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
