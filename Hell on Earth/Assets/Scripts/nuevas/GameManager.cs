@@ -68,6 +68,14 @@ public class GameManager : Singleton<GameManager>
 
     void SetupScene()
     {
-
+        SpawnPlayer();
+    }
+    public SpawnPoint playerSpawnPoint;
+    void SpawnPlayer()
+    {
+        if (playerSpawnPoint != null)
+        {
+            GameObject player = playerSpawnPoint.SpawnObject();
+        }
     }
 }
