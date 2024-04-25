@@ -656,6 +656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interLevelWaitTime: 3
   pauseMenu: {fileID: 6244248406788016435}
+  playerSpawnPoint: {fileID: 0}
 --- !u!1 &4861152098487558395
 GameObject:
   m_ObjectHideFlags: 0
