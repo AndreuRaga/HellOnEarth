@@ -474,7 +474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa468ce60cc57984aa42c04daf6fe4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: hola
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
 --- !u!1 &4873873512109249108
 GameObject:
