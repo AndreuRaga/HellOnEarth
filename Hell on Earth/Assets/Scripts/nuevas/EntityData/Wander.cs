@@ -58,6 +58,49 @@ public class Wander : MonoBehaviour
     }
     IEnumerator Move()
     {
-        return null; // TODO
+        float remainingDistance = (transform.position - endPosition).sqrMagnitude;
+        while (remainingDistance > float.Epsilon)
+        {
+            if (targetTransform != null)
+            {
+                endPosition = targetTransform.position;
+            }
+            animator.SetBool("isWalking", true);
+            Vector3 dir = Vector3.Normalize(endPosition - transform.position);
+            animator.SetFloat("xDir", dir.x);
+            animator.SetFloat("yDir", dir.y);
+            Vector3 newPosition = Vector3.MoveTowards(rb2d.position, endPosition, currentSpeed * Time.deltaTime);
+            rb2d.MovePosition(newPosition);
+            remainingDistance = (transform.position - endPosition).sqrMagnitude;
+            yield return new WaitForFixedUpdate();
+        }
+        animator.SetBool("isWalking", false);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Seguir");
+        if (other.CompareTag("Player") && followPlayer)
+        {
+            currentSpeed = pursuitSpeed;
+            targetTransform = other.transform;
+            if (moveCoroutine != null)
+            {
+                StopCoroutine(moveCoroutine);
+            }
+            moveCoroutine = StartCoroutine(Move());
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("isWalking", false);
+            currentSpeed = wanderSpeed;
+            if (moveCoroutine != null)
+            {
+                StopCoroutine(moveCoroutine);
+            }
+            targetTransform = null;
+        }
     }
 }
