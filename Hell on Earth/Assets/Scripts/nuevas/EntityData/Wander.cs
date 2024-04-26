@@ -41,8 +41,7 @@ public class Wander : MonoBehaviour
                 StopCoroutine(moveCoroutine);
             }
             moveCoroutine = StartCoroutine(Move());
-            yield return new
-            WaitForSeconds(directionChangeInterval);
+            yield return new WaitForSeconds(directionChangeInterval);
         }
     }
     void ChooseNewEndpoint()
