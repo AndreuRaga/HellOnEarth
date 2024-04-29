@@ -9,6 +9,7 @@ public class Character : MonoBehaviour
     {
         while (true)
         {
+            StartCoroutine(FlickerCharacter());
             hitPoints.currentValue -= damage;
             if (hitPoints.currentValue <= 0)
             {
@@ -34,4 +35,12 @@ public class Character : MonoBehaviour
     {
         hitPoints.currentValue = hitPoints.maxValue;
     }
+    public virtual IEnumerator FlickerCharacter()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sr.color = Color.white;
+    }
+
 }
