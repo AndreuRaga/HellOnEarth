@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: daec9ff49c82d4c4a968ae9b560c5e05
+guid: f9f100d9efd539e4a947efcb77b980d5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bone Fetish Knife idle N
+      name: Bone Fetish Knife idle_N
       rect:
         serializedVersion: 2
         x: 0
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd07354dc2f131d4f81648e2a6362b15
-      internalID: 303611244
+      spriteID: 4886f89894fef1943be570e29bfbb5f1
+      internalID: 1350176859
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_1
       rect:
         serializedVersion: 2
-        x: 101
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 977d20f2baddfce40a5432e3ddbe2384
-      internalID: 1070830787
+      spriteID: b839d1018909c584ea55191bce74a81f
+      internalID: -1309879251
       vertices: []
       indices: 
       edges: []
@@ -155,10 +155,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_2
       rect:
         serializedVersion: 2
-        x: 202
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b464e9de7c97b4499958d716e110f49
-      internalID: -957553309
+      spriteID: cd5550f8a7156f047a3edf1ad514da7f
+      internalID: -418178952
       vertices: []
       indices: 
       edges: []
@@ -176,10 +176,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_3
       rect:
         serializedVersion: 2
-        x: 303
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f82f8020bc51f4e49bdc82221c601910
-      internalID: -69769764
+      spriteID: 010abf723eda345499ba7bea8f36d87f
+      internalID: 2013972686
       vertices: []
       indices: 
       edges: []
@@ -197,10 +197,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_4
       rect:
         serializedVersion: 2
-        x: 404
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d84a300c5d673342b230806d4497b67
-      internalID: 1924437266
+      spriteID: 6fd1c119560ac4141a91b6511e9c1991
+      internalID: -1771208569
       vertices: []
       indices: 
       edges: []
@@ -218,10 +218,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_5
       rect:
         serializedVersion: 2
-        x: 505
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d83dd7a7fb7cc4a89a24dc4f567af3
-      internalID: -2015968046
+      spriteID: 9e16e66c0d3970748bc6b751e575fd93
+      internalID: 832773755
       vertices: []
       indices: 
       edges: []
@@ -239,10 +239,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_6
       rect:
         serializedVersion: 2
-        x: 606
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8534b03d6c8bc64ab4914f5cbb0f9f6
-      internalID: -282002308
+      spriteID: a1ca7d03dbfaf9a4ab6d35f02f568e47
+      internalID: -1296059337
       vertices: []
       indices: 
       edges: []
@@ -260,10 +260,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_7
       rect:
         serializedVersion: 2
-        x: 707
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e189342776cd8488c7180c408de839
-      internalID: -1263340336
+      spriteID: a9ab50df90a3a0541955c84112295212
+      internalID: 2032965527
       vertices: []
       indices: 
       edges: []
@@ -281,10 +281,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_8
       rect:
         serializedVersion: 2
-        x: 808
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f0e58ee6269fc4eba210192d180a7e
-      internalID: 1502656891
+      spriteID: 2be91879083b4184c9eeb754cc15d59e
+      internalID: -1021843510
       vertices: []
       indices: 
       edges: []
@@ -302,10 +302,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_9
       rect:
         serializedVersion: 2
-        x: 909
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da01d9ae387daf448a70b4b3a3aa95db
-      internalID: -1501476904
+      spriteID: aed7dd535fb3025479e7ba41f6193bb2
+      internalID: -1847079069
       vertices: []
       indices: 
       edges: []
@@ -323,10 +323,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_10
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fda0d7844b67ee42881e7312656d554
-      internalID: 2076161177
+      spriteID: 355d4b581caba2e41bc20423ea4f34da
+      internalID: -1440408787
       vertices: []
       indices: 
       edges: []
@@ -344,10 +344,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_11
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 640.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 637
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a475df2a274a9b45943db4ca52cede2
-      internalID: -814644556
+      spriteID: 6d78763b4eb4b534ba322cc3fea5f5d4
+      internalID: 1253150186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle NE
+      name: Bone Fetish Knife idle_NE
       rect:
         serializedVersion: 2
         x: 0
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,8 +376,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf2fa7c07e0089e45bc69315a9a2a2f1
-      internalID: 1014643443
+      spriteID: f28ac076ba1381047863af96e1caf7e2
+      internalID: 978847485
       vertices: []
       indices: 
       edges: []
@@ -386,10 +386,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_13
       rect:
         serializedVersion: 2
-        x: 101
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,8 +397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38b769f4110ad344a7da9a7f636d446
-      internalID: -496563399
+      spriteID: 3f2f30c1a7d8df24bada7c3bd3751093
+      internalID: 532762439
       vertices: []
       indices: 
       edges: []
@@ -407,10 +407,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_14
       rect:
         serializedVersion: 2
-        x: 202
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,8 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4559dbd9215776040a662901c4840b72
-      internalID: 255791786
+      spriteID: e99701a223d968940b40a6547fcabddf
+      internalID: -1352683789
       vertices: []
       indices: 
       edges: []
@@ -428,10 +428,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_15
       rect:
         serializedVersion: 2
-        x: 303
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d64bb08fed803449644437659587eb
-      internalID: -1638090976
+      spriteID: 2777fd6aab6f3d44d89c669653814987
+      internalID: 2081073580
       vertices: []
       indices: 
       edges: []
@@ -449,10 +449,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_16
       rect:
         serializedVersion: 2
-        x: 404
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,8 +460,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77ed7b7741e1bc94ebb539fa88031292
-      internalID: 1778277953
+      spriteID: 0c515d6b289e0cc47b99e00259ffb833
+      internalID: -461054948
       vertices: []
       indices: 
       edges: []
@@ -470,10 +470,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_17
       rect:
         serializedVersion: 2
-        x: 505
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,8 +481,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 529349f45817b3a408b7098dd37b31d9
-      internalID: 443262265
+      spriteID: 78523babddb272441874948f870052cb
+      internalID: 1734783483
       vertices: []
       indices: 
       edges: []
@@ -491,10 +491,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_18
       rect:
         serializedVersion: 2
-        x: 606
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,8 +502,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca8eec8a67d5d6946871deb3c9138714
-      internalID: 1683861352
+      spriteID: 9a86ff667262b384d8b228354da74e58
+      internalID: 359909903
       vertices: []
       indices: 
       edges: []
@@ -512,10 +512,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_19
       rect:
         serializedVersion: 2
-        x: 707
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4e287a2789c4b49b67519bd6ece7b3
-      internalID: 68321263
+      spriteID: f392b4fa32d4fbc4790d5b8fd23572fb
+      internalID: -190858826
       vertices: []
       indices: 
       edges: []
@@ -533,10 +533,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_20
       rect:
         serializedVersion: 2
-        x: 808
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,8 +544,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751243bd7935fe14b8a1cc9598b859cd
-      internalID: -681136878
+      spriteID: 21b4b3467eecf224c95cb8838f663180
+      internalID: 2108229449
       vertices: []
       indices: 
       edges: []
@@ -554,10 +554,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_21
       rect:
         serializedVersion: 2
-        x: 909
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,8 +565,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 849b70572806ddf4dae2529ac6b14f8d
-      internalID: -56248401
+      spriteID: d88f331f9a1bd9242aa2583cf94d3b77
+      internalID: 996782245
       vertices: []
       indices: 
       edges: []
@@ -575,10 +575,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_22
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,8 +586,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ce66c440958ca242a6b3eddb90312ea
-      internalID: -1565947762
+      spriteID: c8393077a730a4d4399499e6f0cb5c03
+      internalID: -1797673706
       vertices: []
       indices: 
       edges: []
@@ -596,10 +596,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_23
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 549.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 546
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd22362019e3835429c15c2cbbd5d271
-      internalID: -1388905873
+      spriteID: d4e7bb07639817f41bff095ea17a9162
+      internalID: 279822688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle E
+      name: Bone Fetish Knife idle_E
       rect:
         serializedVersion: 2
         x: 0
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,8 +628,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42fbd3d9b4889f142a4987b8810b185f
-      internalID: 1818587109
+      spriteID: afbc9936464441343842f1c7067f5e9f
+      internalID: 834866777
       vertices: []
       indices: 
       edges: []
@@ -638,10 +638,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_25
       rect:
         serializedVersion: 2
-        x: 101
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,8 +649,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ec04f63c1a9d8498565b9a837da1ef
-      internalID: -1999044286
+      spriteID: 9dc16a7d6f8879a4c933a5a5626a7541
+      internalID: -1100317207
       vertices: []
       indices: 
       edges: []
@@ -659,10 +659,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_26
       rect:
         serializedVersion: 2
-        x: 202
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,8 +670,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22d2b816e0de6fa4482fc6203a098be7
-      internalID: -1897129597
+      spriteID: 32b6ac28963879248ab680610e92e94c
+      internalID: 1757144582
       vertices: []
       indices: 
       edges: []
@@ -680,10 +680,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_27
       rect:
         serializedVersion: 2
-        x: 303
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,8 +691,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db1f01d6ecae4c4469fcad6b028e407b
-      internalID: -74231175
+      spriteID: cf512f1a101c3694c93df593494807c8
+      internalID: -162965019
       vertices: []
       indices: 
       edges: []
@@ -701,10 +701,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_28
       rect:
         serializedVersion: 2
-        x: 404
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,8 +712,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3544277329746cf49a525067ebbec806
-      internalID: 1621675158
+      spriteID: 3c0a8d74cb66c4f42b8304bbe78f188b
+      internalID: 105919671
       vertices: []
       indices: 
       edges: []
@@ -722,10 +722,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_29
       rect:
         serializedVersion: 2
-        x: 505
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,8 +733,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6d73ce9839a9ba47868bd4226be02b9
-      internalID: -314410850
+      spriteID: 11360f5baf3cd6e4e9982e164f22a481
+      internalID: 707145557
       vertices: []
       indices: 
       edges: []
@@ -743,10 +743,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_30
       rect:
         serializedVersion: 2
-        x: 606
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,8 +754,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5630cb519682c5e44bfde4b43eeff547
-      internalID: 747986191
+      spriteID: c860404849c177045b18903d097129ff
+      internalID: -479643735
       vertices: []
       indices: 
       edges: []
@@ -764,10 +764,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_31
       rect:
         serializedVersion: 2
-        x: 707
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,8 +775,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbac9b09bc9b3244c9989926f66ea99b
-      internalID: -1479292325
+      spriteID: a152338ddff0a23438e346a95aa41421
+      internalID: -171038523
       vertices: []
       indices: 
       edges: []
@@ -785,10 +785,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_32
       rect:
         serializedVersion: 2
-        x: 808
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,8 +796,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de75b79714d48964ba873c6bcd02fb79
-      internalID: -1523764997
+      spriteID: 6af6d921c6e77b942bdb950755adf5b7
+      internalID: -479996195
       vertices: []
       indices: 
       edges: []
@@ -806,10 +806,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_33
       rect:
         serializedVersion: 2
-        x: 909
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,8 +817,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca11bae6fdd0a604fbd7a10d60dea265
-      internalID: -1245918754
+      spriteID: a457760194785aa44ad6f1957ad54700
+      internalID: 450055432
       vertices: []
       indices: 
       edges: []
@@ -827,10 +827,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_34
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,8 +838,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9e067b6fe6beb44b633acc99a19d25
-      internalID: 1427683867
+      spriteID: a1d7f8551557e984b98f3257c1e1fb38
+      internalID: 1630090000
       vertices: []
       indices: 
       edges: []
@@ -848,10 +848,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_35
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 458.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 455
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,20 +859,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876387bf65327894d9eb2a180acb0d66
-      internalID: 769033807
+      spriteID: c1eb7512afbe0ea419281b57870962da
+      internalID: 1087381307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle SE
+      name: Bone Fetish Knife idle_SE
       rect:
         serializedVersion: 2
         x: 0
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,8 +880,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66792b09e09d1bd479bca4ffcbd64a02
-      internalID: -789710089
+      spriteID: a41082bc42d44eb4ca056ea9bd9e6e7e
+      internalID: 698269889
       vertices: []
       indices: 
       edges: []
@@ -890,10 +890,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_37
       rect:
         serializedVersion: 2
-        x: 101
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,8 +901,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fb709a44a63dc641990e50d9c99e01b
-      internalID: -448761710
+      spriteID: 94cc83dafdc5183458add2d9765e8d23
+      internalID: 400752092
       vertices: []
       indices: 
       edges: []
@@ -911,10 +911,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_38
       rect:
         serializedVersion: 2
-        x: 202
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -922,8 +922,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc7ddeafc160d6d4190674732e71fbc5
-      internalID: -689601022
+      spriteID: 772b59e0863592e419e63083e037c58f
+      internalID: -653857648
       vertices: []
       indices: 
       edges: []
@@ -932,10 +932,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_39
       rect:
         serializedVersion: 2
-        x: 303
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,8 +943,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4c767e653a06bc4a8b6bfbdd76033b3
-      internalID: 1634616467
+      spriteID: 4a6e927f99b94a042a546d5fc7bdbc37
+      internalID: 223053363
       vertices: []
       indices: 
       edges: []
@@ -953,10 +953,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_40
       rect:
         serializedVersion: 2
-        x: 404
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,8 +964,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b8acb40aa8de8448ba35a0db7a3ae2f
-      internalID: -644582461
+      spriteID: 29d9aecabcfb14a46b7ed756b65b07a4
+      internalID: 463748788
       vertices: []
       indices: 
       edges: []
@@ -974,10 +974,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_41
       rect:
         serializedVersion: 2
-        x: 505
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,8 +985,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb78fdb79ab705945ade131dc308deaf
-      internalID: -295688265
+      spriteID: 070ab431b0be82f40ad977891170c078
+      internalID: 719780418
       vertices: []
       indices: 
       edges: []
@@ -995,10 +995,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_42
       rect:
         serializedVersion: 2
-        x: 606
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,8 +1006,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fd7cb05e33a0934bb5e90584e5e2a2a
-      internalID: 1484229384
+      spriteID: a992b5823742aa74cbed3a86403f5f1e
+      internalID: -1663447207
       vertices: []
       indices: 
       edges: []
@@ -1016,10 +1016,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_43
       rect:
         serializedVersion: 2
-        x: 707
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,8 +1027,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e98a02d22a27a4988690dff510103e
-      internalID: -1293978602
+      spriteID: ac82a061a1c6aba47a0e2ff0e8bbc53b
+      internalID: 1111649629
       vertices: []
       indices: 
       edges: []
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_44
       rect:
         serializedVersion: 2
-        x: 808
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1048,8 +1048,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efecc07889a602143a91c9357b592eea
-      internalID: 29396790
+      spriteID: 288f98d56fc09864fa167227f748b4ac
+      internalID: -66068408
       vertices: []
       indices: 
       edges: []
@@ -1058,10 +1058,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_45
       rect:
         serializedVersion: 2
-        x: 909
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,8 +1069,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d5eb4cc85055444db91db68d91499dd
-      internalID: -624767542
+      spriteID: 29d48a0d4be1f0b43924cf9e8485a20b
+      internalID: -983473895
       vertices: []
       indices: 
       edges: []
@@ -1079,10 +1079,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_46
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1090,8 +1090,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82b3940aac1d2f94a8881a6a68dbb666
-      internalID: -1531797098
+      spriteID: 6935874c0a5e8c347ad5e08dfcc27de3
+      internalID: 1750263746
       vertices: []
       indices: 
       edges: []
@@ -1100,10 +1100,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_47
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 367.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 364
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1111,20 +1111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e832010ef411118498a6c13a76100285
-      internalID: 1641621083
+      spriteID: e0e16998ee86c4a46aee165af3004fef
+      internalID: -1455434375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle S
+      name: Bone Fetish Knife idle_S
       rect:
         serializedVersion: 2
         x: 0
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1132,8 +1132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50013db1d30def64fb83591db17c72a8
-      internalID: -120491956
+      spriteID: 364e694aa1b394446b4360044603bc71
+      internalID: -1899261337
       vertices: []
       indices: 
       edges: []
@@ -1142,10 +1142,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_49
       rect:
         serializedVersion: 2
-        x: 101
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1153,8 +1153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc0503d35de0004e95c61c57364056c
-      internalID: -1279514035
+      spriteID: 8208b19acce2cd54bb0e3d1b33b6facb
+      internalID: 1710909104
       vertices: []
       indices: 
       edges: []
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_50
       rect:
         serializedVersion: 2
-        x: 202
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,8 +1174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e63376fe6061844e832ca4fc07eb72b
-      internalID: -888415469
+      spriteID: 462c2bde13d1f584c8594a38336538b7
+      internalID: 940189114
       vertices: []
       indices: 
       edges: []
@@ -1184,10 +1184,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_51
       rect:
         serializedVersion: 2
-        x: 303
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1195,8 +1195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dc0619290f70b342b55a3a6e90fb7ce
-      internalID: -1767869803
+      spriteID: e135dc2ab4a5c0a45a05acab2cf8c1a7
+      internalID: 53385758
       vertices: []
       indices: 
       edges: []
@@ -1205,10 +1205,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_52
       rect:
         serializedVersion: 2
-        x: 404
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1216,8 +1216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d008f5ee3b9724c98b57b5bf0224af
-      internalID: 630983997
+      spriteID: c9787354ed8dc27418979fd5ac6eb0ce
+      internalID: 468221893
       vertices: []
       indices: 
       edges: []
@@ -1226,10 +1226,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_53
       rect:
         serializedVersion: 2
-        x: 505
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,8 +1237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41aa5743365287245af393a6091e5c37
-      internalID: 938748694
+      spriteID: 5c175dc23f5a3d14eae85a9f73e300d6
+      internalID: -1061788125
       vertices: []
       indices: 
       edges: []
@@ -1247,10 +1247,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_54
       rect:
         serializedVersion: 2
-        x: 606
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1258,8 +1258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a651a0eb96ec646909d0594a267259
-      internalID: 396761121
+      spriteID: b38cf1c7fb2dcfc4497296aa61434779
+      internalID: 1855937362
       vertices: []
       indices: 
       edges: []
@@ -1268,10 +1268,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_55
       rect:
         serializedVersion: 2
-        x: 707
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1279,8 +1279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343bf18d6399e1b47adfd8af3d6f3062
-      internalID: 1295568033
+      spriteID: da1f2a733118dfc498e9531db8cbba08
+      internalID: -626799020
       vertices: []
       indices: 
       edges: []
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_56
       rect:
         serializedVersion: 2
-        x: 808
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1300,8 +1300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d5bf1b37059eb247b05af5653b0904b
-      internalID: -1522139227
+      spriteID: 4e92efebf0d47f84a88f33046b52a188
+      internalID: -2082811673
       vertices: []
       indices: 
       edges: []
@@ -1310,10 +1310,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_57
       rect:
         serializedVersion: 2
-        x: 909
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,8 +1321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cc8d911a5d549f42a562a6bc422a91e
-      internalID: 1411587332
+      spriteID: eeebdb5bdfb04da4282914fd4dd82e18
+      internalID: 1914879069
       vertices: []
       indices: 
       edges: []
@@ -1331,10 +1331,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_58
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1342,8 +1342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4104ab379ea26114898e710febd6b27b
-      internalID: -1079644189
+      spriteID: 6bad37a0cd6913742b3b945e06bd0cce
+      internalID: 311387720
       vertices: []
       indices: 
       edges: []
@@ -1352,10 +1352,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_59
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 276.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 273
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1363,20 +1363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f118139bded3e14cb66aa0e99eb310f
-      internalID: 1462995109
+      spriteID: 35ce7a91541a1544bacdb6907434a5b9
+      internalID: 1842617258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle SW
+      name: Bone Fetish Knife idle_SW
       rect:
         serializedVersion: 2
         x: 0
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1384,8 +1384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c351f83c34bad9241b4c86ca15e4881f
-      internalID: -930754853
+      spriteID: 4c2fe64405bf61541b5663a945f0f650
+      internalID: -1908231307
       vertices: []
       indices: 
       edges: []
@@ -1394,10 +1394,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_61
       rect:
         serializedVersion: 2
-        x: 101
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,8 +1405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f3334addf77144a9b90963ea1d5ef5
-      internalID: -882548628
+      spriteID: e262a6837a5a88944b6cf31a7fa6c716
+      internalID: 780590594
       vertices: []
       indices: 
       edges: []
@@ -1415,10 +1415,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_62
       rect:
         serializedVersion: 2
-        x: 202
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,8 +1426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0ae9a85165a1d04a8775127d53273a6
-      internalID: 1678979828
+      spriteID: 65a8170973a4de04bba5ea17fd78ce84
+      internalID: 27934793
       vertices: []
       indices: 
       edges: []
@@ -1436,10 +1436,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_63
       rect:
         serializedVersion: 2
-        x: 303
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1447,8 +1447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 232672abfb6ed1a488e3792a049949cc
-      internalID: -1517227355
+      spriteID: 78391f67f0e11074d9968cf62251a631
+      internalID: -502706009
       vertices: []
       indices: 
       edges: []
@@ -1457,10 +1457,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_64
       rect:
         serializedVersion: 2
-        x: 404
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1468,8 +1468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90f02b46c1cb6cd44ae01e872c5666c2
-      internalID: 143655295
+      spriteID: 92476ecdb48c52b45885a968be567b6f
+      internalID: 22455436
       vertices: []
       indices: 
       edges: []
@@ -1478,10 +1478,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_65
       rect:
         serializedVersion: 2
-        x: 505
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,8 +1489,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe279f27d9604e54486e7b47a1cebd5e
-      internalID: 1107161888
+      spriteID: 897281acb8eeca849858d4612a5dc5ad
+      internalID: 33106596
       vertices: []
       indices: 
       edges: []
@@ -1499,10 +1499,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_66
       rect:
         serializedVersion: 2
-        x: 606
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1510,8 +1510,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccfece115fbb9024aba00645c551eb3c
-      internalID: 1141230143
+      spriteID: f9d969bb34509d84da07c6ea44466b90
+      internalID: -692631843
       vertices: []
       indices: 
       edges: []
@@ -1520,10 +1520,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_67
       rect:
         serializedVersion: 2
-        x: 707
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1531,8 +1531,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6343942ea6bb74fa408471eebe9dac
-      internalID: 2138203146
+      spriteID: 549792a8931008f489e5beb75154fb5d
+      internalID: -1591432875
       vertices: []
       indices: 
       edges: []
@@ -1541,10 +1541,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_68
       rect:
         serializedVersion: 2
-        x: 808
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1552,8 +1552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22bdd8ad74ee119408d14a275d911a53
-      internalID: -1050262192
+      spriteID: a4b9a03c9a50a5d44ae5045101d9488a
+      internalID: 1177952863
       vertices: []
       indices: 
       edges: []
@@ -1562,10 +1562,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_69
       rect:
         serializedVersion: 2
-        x: 909
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1573,8 +1573,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb392068dc6ed1e4aa8c3ee8316e7d51
-      internalID: 1861436879
+      spriteID: c585edc263c09504a8a24032b2f70f71
+      internalID: -589404845
       vertices: []
       indices: 
       edges: []
@@ -1583,10 +1583,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_70
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1594,8 +1594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c83659de11fb404a952700861df12f6
-      internalID: 1929123295
+      spriteID: 48ede32d3ed989641a501be751e75c86
+      internalID: -1304743721
       vertices: []
       indices: 
       edges: []
@@ -1604,10 +1604,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_71
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 185.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 182
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1615,20 +1615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa9593411c6c7f41b18676c013dcedc
-      internalID: -1160888624
+      spriteID: f5ac7cf0dffb64549b0c4aef7b0fbd00
+      internalID: -1528496236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle W
+      name: Bone Fetish Knife idle_W
       rect:
         serializedVersion: 2
         x: 0
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1636,8 +1636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510fd82e92d40f347b283a193ae08952
-      internalID: -646776832
+      spriteID: d9ad8398d7b369c43b7d8cc04eed5b03
+      internalID: 179752639
       vertices: []
       indices: 
       edges: []
@@ -1646,10 +1646,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_73
       rect:
         serializedVersion: 2
-        x: 101
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1657,8 +1657,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e02f905b1e38848bd6b385d6508c05
-      internalID: -1280649289
+      spriteID: d59d94318f3dfb548bba5c14dd67028b
+      internalID: 1806668588
       vertices: []
       indices: 
       edges: []
@@ -1667,10 +1667,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_74
       rect:
         serializedVersion: 2
-        x: 202
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1678,8 +1678,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a2f4798313cc384786ff4bedfd90385
-      internalID: -1254283192
+      spriteID: bfc0b7b6f6801214f845327cd8175829
+      internalID: -1207597538
       vertices: []
       indices: 
       edges: []
@@ -1688,10 +1688,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_75
       rect:
         serializedVersion: 2
-        x: 303
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1699,8 +1699,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d695dc6f6ed5b7478cf1d8457056970
-      internalID: 1220130018
+      spriteID: 3491e3c6c8e572543b5f6cee294a0327
+      internalID: 225494078
       vertices: []
       indices: 
       edges: []
@@ -1709,10 +1709,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_76
       rect:
         serializedVersion: 2
-        x: 404
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1720,8 +1720,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c1269633a47f34eb66fc508962bd23
-      internalID: -1304760214
+      spriteID: 45679d8996d9d9d40a9c135837ef6074
+      internalID: 1927828390
       vertices: []
       indices: 
       edges: []
@@ -1730,10 +1730,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_77
       rect:
         serializedVersion: 2
-        x: 505
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1741,8 +1741,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e27c3187fa25134fbef138bb5d3425c
-      internalID: 1419783516
+      spriteID: 488d90cdbb12a9841b7584ad8120c855
+      internalID: -367617966
       vertices: []
       indices: 
       edges: []
@@ -1751,10 +1751,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_78
       rect:
         serializedVersion: 2
-        x: 606
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1762,8 +1762,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5ba4be4b3f12c74a9c4e325368e5592
-      internalID: -2053870955
+      spriteID: 56a8c572ce299ef4a96fd98556ee8883
+      internalID: 1384085426
       vertices: []
       indices: 
       edges: []
@@ -1772,10 +1772,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_79
       rect:
         serializedVersion: 2
-        x: 707
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,8 +1783,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fba5e50452b07a40b0f12cb6f4bf187
-      internalID: -1185230174
+      spriteID: 6f8ebe60b21f8cc43852b93601eb281f
+      internalID: 764716858
       vertices: []
       indices: 
       edges: []
@@ -1793,10 +1793,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_80
       rect:
         serializedVersion: 2
-        x: 808
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1804,8 +1804,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7c41046bc905924895b10204bcf945d
-      internalID: 1702225363
+      spriteID: ef006b74dc0ae75498bee6b199180460
+      internalID: 1209517943
       vertices: []
       indices: 
       edges: []
@@ -1814,10 +1814,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_81
       rect:
         serializedVersion: 2
-        x: 909
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1825,8 +1825,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c21a87ccc62f544187395010162107f
-      internalID: -163084532
+      spriteID: 635632411a79d474abb9744ed4004bf8
+      internalID: 1794720344
       vertices: []
       indices: 
       edges: []
@@ -1835,10 +1835,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_82
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1846,8 +1846,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d3b100f8be9c6d42b7da52710191415
-      internalID: 596534330
+      spriteID: a804956fd1a93d74b9dc3cbb090a9d8c
+      internalID: 778665848
       vertices: []
       indices: 
       edges: []
@@ -1856,10 +1856,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_83
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 94.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 91
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1867,20 +1867,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853de026f3d9f1b46abb3de42a2ed656
-      internalID: -1117978949
+      spriteID: 442250084f929134a9fe6c5731d61543
+      internalID: 421875265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bone Fetish Knife idle NW
+      name: Bone Fetish Knife idle_NW
       rect:
         serializedVersion: 2
         x: 0
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1888,8 +1888,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d3685863027e1f41b71492295cf3a91
-      internalID: -1736407759
+      spriteID: 25c732644ffd3404592cffd0c9c7e272
+      internalID: -2033503829
       vertices: []
       indices: 
       edges: []
@@ -1898,10 +1898,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_85
       rect:
         serializedVersion: 2
-        x: 101
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 102
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1909,8 +1909,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c30978fd68788b49bfb60ed23bc4119
-      internalID: 1009391380
+      spriteID: ba8bd29f59c6d6d449c2ce46c848abd8
+      internalID: 677871906
       vertices: []
       indices: 
       edges: []
@@ -1919,10 +1919,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_86
       rect:
         serializedVersion: 2
-        x: 202
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 204
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1930,8 +1930,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a2a27f9a5fe504eabbebb334c7f20a
-      internalID: -1724546008
+      spriteID: 1412c5e2b2e29e64f9cebd417fb520ca
+      internalID: -2083958518
       vertices: []
       indices: 
       edges: []
@@ -1940,10 +1940,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_87
       rect:
         serializedVersion: 2
-        x: 303
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 306
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1951,8 +1951,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a79be8b728e76814884e2aba8a8b6e09
-      internalID: 2094271152
+      spriteID: 674e45ecc0db2b54b929ff47e4f86329
+      internalID: 619682643
       vertices: []
       indices: 
       edges: []
@@ -1961,10 +1961,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_88
       rect:
         serializedVersion: 2
-        x: 404
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 408
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1972,8 +1972,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66787a9cfe12f349a5c864a8ea9cda4
-      internalID: 360681434
+      spriteID: 2ea5ad03c70f342469b91c999d435da8
+      internalID: -1221686239
       vertices: []
       indices: 
       edges: []
@@ -1982,10 +1982,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_89
       rect:
         serializedVersion: 2
-        x: 505
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 510
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1993,8 +1993,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 176154d3514c1034fa557d76cefe5a39
-      internalID: -1424498921
+      spriteID: 05575a045085bdb49933c5637a221604
+      internalID: -1787386673
       vertices: []
       indices: 
       edges: []
@@ -2003,10 +2003,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_90
       rect:
         serializedVersion: 2
-        x: 606
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 612
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2014,8 +2014,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb77ba508af0ec458dc874819232716
-      internalID: 898693884
+      spriteID: 3da16041b6e1e4b41b0607096b03bb80
+      internalID: -254176945
       vertices: []
       indices: 
       edges: []
@@ -2024,10 +2024,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_91
       rect:
         serializedVersion: 2
-        x: 707
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 714
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2035,8 +2035,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72f6c19657fa6a049a8d53cabec7a85d
-      internalID: -1688414728
+      spriteID: 6d94058023847be41a8cbdb3849e523e
+      internalID: 1862410353
       vertices: []
       indices: 
       edges: []
@@ -2045,10 +2045,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_92
       rect:
         serializedVersion: 2
-        x: 808
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 816
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2056,8 +2056,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f850f62eaa259b048ac416b25e4ca3f7
-      internalID: 1486163772
+      spriteID: 012614d2cae974a43998850a8f882569
+      internalID: 101098027
       vertices: []
       indices: 
       edges: []
@@ -2066,10 +2066,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_93
       rect:
         serializedVersion: 2
-        x: 909
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 918
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2077,8 +2077,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4eb95206ac99e44861ed8e02a438b1
-      internalID: 1348408531
+      spriteID: 64eb8f544d5b93a4e8ea6a80ffe9d8e0
+      internalID: -431706733
       vertices: []
       indices: 
       edges: []
@@ -2087,10 +2087,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_94
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 1020
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2098,8 +2098,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d0959b288af0ee438f9ed413dbedde2
-      internalID: -1124194176
+      spriteID: 3c1bc0d6868e7a74ba7029cdb28f1bc0
+      internalID: -1878166301
       vertices: []
       indices: 
       edges: []
@@ -2108,10 +2108,10 @@ TextureImporter:
       name: Bone Fetish Knife idle_95
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 3.5
-        width: 101.833336
-        height: 91.5
+        x: 1122
+        y: 0
+        width: 102.083336
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2119,8 +2119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cdfa51a1203fee42adbad4e9c02b90f
-      internalID: 1971191586
+      spriteID: ebc3d0de40981c64582c64d885eb65b6
+      internalID: -511656341
       vertices: []
       indices: 
       edges: []
@@ -2136,102 +2136,102 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bone Fetish Knife idle E: 1818587109
-      Bone Fetish Knife idle N: 303611244
-      Bone Fetish Knife idle NE: 1014643443
-      Bone Fetish Knife idle NW: -1736407759
-      Bone Fetish Knife idle S: -120491956
-      Bone Fetish Knife idle SE: -789710089
-      Bone Fetish Knife idle SW: -930754853
-      Bone Fetish Knife idle W: -646776832
-      Bone Fetish Knife idle_1: 1070830787
-      Bone Fetish Knife idle_10: 2076161177
-      Bone Fetish Knife idle_11: -814644556
-      Bone Fetish Knife idle_13: -496563399
-      Bone Fetish Knife idle_14: 255791786
-      Bone Fetish Knife idle_15: -1638090976
-      Bone Fetish Knife idle_16: 1778277953
-      Bone Fetish Knife idle_17: 443262265
-      Bone Fetish Knife idle_18: 1683861352
-      Bone Fetish Knife idle_19: 68321263
-      Bone Fetish Knife idle_2: -957553309
-      Bone Fetish Knife idle_20: -681136878
-      Bone Fetish Knife idle_21: -56248401
-      Bone Fetish Knife idle_22: -1565947762
-      Bone Fetish Knife idle_23: -1388905873
-      Bone Fetish Knife idle_25: -1999044286
-      Bone Fetish Knife idle_26: -1897129597
-      Bone Fetish Knife idle_27: -74231175
-      Bone Fetish Knife idle_28: 1621675158
-      Bone Fetish Knife idle_29: -314410850
-      Bone Fetish Knife idle_3: -69769764
-      Bone Fetish Knife idle_30: 747986191
-      Bone Fetish Knife idle_31: -1479292325
-      Bone Fetish Knife idle_32: -1523764997
-      Bone Fetish Knife idle_33: -1245918754
-      Bone Fetish Knife idle_34: 1427683867
-      Bone Fetish Knife idle_35: 769033807
-      Bone Fetish Knife idle_37: -448761710
-      Bone Fetish Knife idle_38: -689601022
-      Bone Fetish Knife idle_39: 1634616467
-      Bone Fetish Knife idle_4: 1924437266
-      Bone Fetish Knife idle_40: -644582461
-      Bone Fetish Knife idle_41: -295688265
-      Bone Fetish Knife idle_42: 1484229384
-      Bone Fetish Knife idle_43: -1293978602
-      Bone Fetish Knife idle_44: 29396790
-      Bone Fetish Knife idle_45: -624767542
-      Bone Fetish Knife idle_46: -1531797098
-      Bone Fetish Knife idle_47: 1641621083
-      Bone Fetish Knife idle_49: -1279514035
-      Bone Fetish Knife idle_5: -2015968046
-      Bone Fetish Knife idle_50: -888415469
-      Bone Fetish Knife idle_51: -1767869803
-      Bone Fetish Knife idle_52: 630983997
-      Bone Fetish Knife idle_53: 938748694
-      Bone Fetish Knife idle_54: 396761121
-      Bone Fetish Knife idle_55: 1295568033
-      Bone Fetish Knife idle_56: -1522139227
-      Bone Fetish Knife idle_57: 1411587332
-      Bone Fetish Knife idle_58: -1079644189
-      Bone Fetish Knife idle_59: 1462995109
-      Bone Fetish Knife idle_6: -282002308
-      Bone Fetish Knife idle_61: -882548628
-      Bone Fetish Knife idle_62: 1678979828
-      Bone Fetish Knife idle_63: -1517227355
-      Bone Fetish Knife idle_64: 143655295
-      Bone Fetish Knife idle_65: 1107161888
-      Bone Fetish Knife idle_66: 1141230143
-      Bone Fetish Knife idle_67: 2138203146
-      Bone Fetish Knife idle_68: -1050262192
-      Bone Fetish Knife idle_69: 1861436879
-      Bone Fetish Knife idle_7: -1263340336
-      Bone Fetish Knife idle_70: 1929123295
-      Bone Fetish Knife idle_71: -1160888624
-      Bone Fetish Knife idle_73: -1280649289
-      Bone Fetish Knife idle_74: -1254283192
-      Bone Fetish Knife idle_75: 1220130018
-      Bone Fetish Knife idle_76: -1304760214
-      Bone Fetish Knife idle_77: 1419783516
-      Bone Fetish Knife idle_78: -2053870955
-      Bone Fetish Knife idle_79: -1185230174
-      Bone Fetish Knife idle_8: 1502656891
-      Bone Fetish Knife idle_80: 1702225363
-      Bone Fetish Knife idle_81: -163084532
-      Bone Fetish Knife idle_82: 596534330
-      Bone Fetish Knife idle_83: -1117978949
-      Bone Fetish Knife idle_85: 1009391380
-      Bone Fetish Knife idle_86: -1724546008
-      Bone Fetish Knife idle_87: 2094271152
-      Bone Fetish Knife idle_88: 360681434
-      Bone Fetish Knife idle_89: -1424498921
-      Bone Fetish Knife idle_9: -1501476904
-      Bone Fetish Knife idle_90: 898693884
-      Bone Fetish Knife idle_91: -1688414728
-      Bone Fetish Knife idle_92: 1486163772
-      Bone Fetish Knife idle_93: 1348408531
-      Bone Fetish Knife idle_94: -1124194176
-      Bone Fetish Knife idle_95: 1971191586
+      Bone Fetish Knife idle_1: -1309879251
+      Bone Fetish Knife idle_10: -1440408787
+      Bone Fetish Knife idle_11: 1253150186
+      Bone Fetish Knife idle_13: 532762439
+      Bone Fetish Knife idle_14: -1352683789
+      Bone Fetish Knife idle_15: 2081073580
+      Bone Fetish Knife idle_16: -461054948
+      Bone Fetish Knife idle_17: 1734783483
+      Bone Fetish Knife idle_18: 359909903
+      Bone Fetish Knife idle_19: -190858826
+      Bone Fetish Knife idle_2: -418178952
+      Bone Fetish Knife idle_20: 2108229449
+      Bone Fetish Knife idle_21: 996782245
+      Bone Fetish Knife idle_22: -1797673706
+      Bone Fetish Knife idle_23: 279822688
+      Bone Fetish Knife idle_25: -1100317207
+      Bone Fetish Knife idle_26: 1757144582
+      Bone Fetish Knife idle_27: -162965019
+      Bone Fetish Knife idle_28: 105919671
+      Bone Fetish Knife idle_29: 707145557
+      Bone Fetish Knife idle_3: 2013972686
+      Bone Fetish Knife idle_30: -479643735
+      Bone Fetish Knife idle_31: -171038523
+      Bone Fetish Knife idle_32: -479996195
+      Bone Fetish Knife idle_33: 450055432
+      Bone Fetish Knife idle_34: 1630090000
+      Bone Fetish Knife idle_35: 1087381307
+      Bone Fetish Knife idle_37: 400752092
+      Bone Fetish Knife idle_38: -653857648
+      Bone Fetish Knife idle_39: 223053363
+      Bone Fetish Knife idle_4: -1771208569
+      Bone Fetish Knife idle_40: 463748788
+      Bone Fetish Knife idle_41: 719780418
+      Bone Fetish Knife idle_42: -1663447207
+      Bone Fetish Knife idle_43: 1111649629
+      Bone Fetish Knife idle_44: -66068408
+      Bone Fetish Knife idle_45: -983473895
+      Bone Fetish Knife idle_46: 1750263746
+      Bone Fetish Knife idle_47: -1455434375
+      Bone Fetish Knife idle_49: 1710909104
+      Bone Fetish Knife idle_5: 832773755
+      Bone Fetish Knife idle_50: 940189114
+      Bone Fetish Knife idle_51: 53385758
+      Bone Fetish Knife idle_52: 468221893
+      Bone Fetish Knife idle_53: -1061788125
+      Bone Fetish Knife idle_54: 1855937362
+      Bone Fetish Knife idle_55: -626799020
+      Bone Fetish Knife idle_56: -2082811673
+      Bone Fetish Knife idle_57: 1914879069
+      Bone Fetish Knife idle_58: 311387720
+      Bone Fetish Knife idle_59: 1842617258
+      Bone Fetish Knife idle_6: -1296059337
+      Bone Fetish Knife idle_61: 780590594
+      Bone Fetish Knife idle_62: 27934793
+      Bone Fetish Knife idle_63: -502706009
+      Bone Fetish Knife idle_64: 22455436
+      Bone Fetish Knife idle_65: 33106596
+      Bone Fetish Knife idle_66: -692631843
+      Bone Fetish Knife idle_67: -1591432875
+      Bone Fetish Knife idle_68: 1177952863
+      Bone Fetish Knife idle_69: -589404845
+      Bone Fetish Knife idle_7: 2032965527
+      Bone Fetish Knife idle_70: -1304743721
+      Bone Fetish Knife idle_71: -1528496236
+      Bone Fetish Knife idle_73: 1806668588
+      Bone Fetish Knife idle_74: -1207597538
+      Bone Fetish Knife idle_75: 225494078
+      Bone Fetish Knife idle_76: 1927828390
+      Bone Fetish Knife idle_77: -367617966
+      Bone Fetish Knife idle_78: 1384085426
+      Bone Fetish Knife idle_79: 764716858
+      Bone Fetish Knife idle_8: -1021843510
+      Bone Fetish Knife idle_80: 1209517943
+      Bone Fetish Knife idle_81: 1794720344
+      Bone Fetish Knife idle_82: 778665848
+      Bone Fetish Knife idle_83: 421875265
+      Bone Fetish Knife idle_85: 677871906
+      Bone Fetish Knife idle_86: -2083958518
+      Bone Fetish Knife idle_87: 619682643
+      Bone Fetish Knife idle_88: -1221686239
+      Bone Fetish Knife idle_89: -1787386673
+      Bone Fetish Knife idle_9: -1847079069
+      Bone Fetish Knife idle_90: -254176945
+      Bone Fetish Knife idle_91: 1862410353
+      Bone Fetish Knife idle_92: 101098027
+      Bone Fetish Knife idle_93: -431706733
+      Bone Fetish Knife idle_94: -1878166301
+      Bone Fetish Knife idle_95: -511656341
+      Bone Fetish Knife idle_E: 834866777
+      Bone Fetish Knife idle_N: 1350176859
+      Bone Fetish Knife idle_NE: 978847485
+      Bone Fetish Knife idle_NW: -2033503829
+      Bone Fetish Knife idle_S: -1899261337
+      Bone Fetish Knife idle_SE: 698269889
+      Bone Fetish Knife idle_SW: -1908231307
+      Bone Fetish Knife idle_W: 179752639
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
