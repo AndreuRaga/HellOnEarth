@@ -5,14 +5,20 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     private bool playerInRange = false;
+    public GameObject portalEntrance;
 
+    private void Start()
+    {
+        portalEntrance.SetActive(false);
+    }
     void OnCollisionEnter2D(Collision2D other)
     {
         // Check if the player enters the trigger zone
         if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = true;
-            GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
+            portalEntrance.SetActive(true);
+            //GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
         }
     }
 
@@ -22,7 +28,8 @@ public class Portal : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
-            GetComponent<SpriteRenderer>().color = Color.white;
+            portalEntrance.SetActive(false);
+            //GetComponent<SpriteRenderer>().color = Color.white;
         }
     }
 
