@@ -10,17 +10,14 @@ public class Player : Character
     private void Start()
     {
         hitPoints.currentValue = hitPoints.maxValue;
-        animator = GetComponent<Animator>(); // Obtener el Animator del jugador
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        // Si se puede atacar y se presiona el botón izquierdo del ratón
         if (Input.GetMouseButtonDown(0))
         {
-            // Configurar el parámetro isAttacking del Animator a true
-            animator.SetBool("isAttacking", true);
+            animator.SetTrigger("Attack");
         }
-        animator.SetBool("isAttacking", false);
     }
 }
