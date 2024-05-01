@@ -20,7 +20,7 @@ public class Player : Character
         if (canAttack && Input.GetMouseButtonDown(0))
         {
             // Activar el trigger isAttacking del Animator
-            animator.SetTrigger("isAttacking");
+            animator.SetTrigger("Attack");
             // Iniciar la corrutina para controlar la duración del ataque
             StartCoroutine(AttackCooldown());
         }
