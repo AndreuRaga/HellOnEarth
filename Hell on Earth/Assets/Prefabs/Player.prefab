@@ -208,4 +208,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
-  damageStrength: 1
+  damageStrength: 2
