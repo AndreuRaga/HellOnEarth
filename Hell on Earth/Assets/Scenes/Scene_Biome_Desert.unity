@@ -10185,11 +10185,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Palm
       objectReference: {fileID: 0}
-    - target: {fileID: 7683452084394070198, guid: 3b0788909d2477247a43cb4f4ceb765d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 7683452084394070199, guid: 3b0788909d2477247a43cb4f4ceb765d,
         type: 3}
       propertyPath: m_RootOrder
@@ -10243,16 +10238,6 @@ PrefabInstance:
     - target: {fileID: 7683452084394070199, guid: 3b0788909d2477247a43cb4f4ceb765d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7683452085151398540, guid: 3b0788909d2477247a43cb4f4ceb765d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Interactable
-      objectReference: {fileID: 0}
-    - target: {fileID: 7683452085151398542, guid: 3b0788909d2477247a43cb4f4ceb765d,
-        type: 3}
-      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
