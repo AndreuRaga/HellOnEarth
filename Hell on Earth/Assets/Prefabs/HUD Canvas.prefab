@@ -425,8 +425,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   percentage: {fileID: 1988654643992359523}
-  enemiesDead: 1
+  enemiesDead: 0
   enemyCount: 1
+  portal: {fileID: 0}
 --- !u!1 &4563268562966499492
 GameObject:
   m_ObjectHideFlags: 0
