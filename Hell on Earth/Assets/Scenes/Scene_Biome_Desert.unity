@@ -1129,6 +1129,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 497633037}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &544472242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8118335069885527619, guid: cd8a568bb0ad4924ab4602247c9c3519,
+    type: 3}
+  m_PrefabInstance: {fileID: 2438332468647044465}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &553123006
 GameObject:
   m_ObjectHideFlags: 0
@@ -17681,6 +17687,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 19092007896485051, guid: 006ff52913403134a8d05a707d866318,
+        type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 544472242}
+    - target: {fileID: 19092007896485051, guid: 006ff52913403134a8d05a707d866318,
+        type: 3}
+      propertyPath: enemiesDead
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 885663743689855064, guid: 006ff52913403134a8d05a707d866318,
         type: 3}
       propertyPath: m_Pivot.x
