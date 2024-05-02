@@ -18,6 +18,14 @@ public class EnemyDeaths : MonoBehaviour
     }
     void Update()
     {
-        percentage.text = ((enemiesDead / enemyCount) * 100).ToString() + "%";
+        if (enemyCount <= 0)
+        {
+            percentage.text = "NE";
+        }
+        else
+        {
+            percentage.text = ((enemiesDead / enemyCount) * 100).ToString() + "%";
+        }
+        
     }
 }
