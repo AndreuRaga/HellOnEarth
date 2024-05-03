@@ -16,7 +16,7 @@ public class EnemyDeaths : MonoBehaviour
         // Encontrar todos los GameObjects con la etiqueta "Enemy"
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
         enemyCount = enemyList.Length;
-        Debug.Log("Cantidad de enemigos: " + enemyCount);
+        //Debug.Log("Cantidad de enemigos: " + enemyCount);
     }
     void Update()
     {
