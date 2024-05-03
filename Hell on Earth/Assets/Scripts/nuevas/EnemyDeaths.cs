@@ -35,6 +35,10 @@ public class EnemyDeaths : MonoBehaviour
     }
     private int GetPercentageNumber()
     {
-        return (enemiesDead / enemyCount) * 100;
+        if (enemyCount > 0)
+        {
+            return (enemiesDead / enemyCount) * 100;
+        }
+        return 100;
     }
 }

@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : Character
 {
     public int damageStrength;
+    public float attackRange;
     private Animator animator;
 
     private MovementController movementController; // Referencia al controlador de movimiento
@@ -28,6 +29,8 @@ public class Player : Character
             // Detener temporalmente el movimiento del jugador durante la animación de ataque
             movementController.StopMovementTemporarily(GetAttackAnimationDuration());
         }
+        Vector2 centro = transform.position;
+        Physics2D.OverlapCircle(centro, attackRange);
     }
 
     // Método para obtener la duración de la animación de ataque
