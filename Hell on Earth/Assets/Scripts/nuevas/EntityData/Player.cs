@@ -28,9 +28,28 @@ public class Player : Character
             animator.SetTrigger("Attack");
             // Detener temporalmente el movimiento del jugador durante la animación de ataque
             movementController.StopMovementTemporarily(GetAttackAnimationDuration());
+            //Centro o posición de Player
+            Vector2 centro = transform.position;
+            // Definir el filtro para solo colisionar con GameObjects que tengan la etiqueta "Enemy"
+            ContactFilter2D contactFilter = new ContactFilter2D();
+            contactFilter.SetLayerMask(LayerMask.GetMask("Enemies"));
+            contactFilter.useLayerMask = true;
+            //colliders enemigos
+            List<Collider2D> enemyCollidersList = new List<Collider2D>();
+            Physics2D.OverlapCircle(centro, attackRange, contactFilter, enemyCollidersList);
+            if (enemyCollidersList.Count > 0)
+            {
+                Vector2 firstColliderPosition = enemyCollidersList[0].transform.position;
+                float distancia = Vector2.Distance(centro, firstColliderPosition);
+                if (distancia <= attackRange) {
+                    Enemy enemy = enemyCollidersList[0].GetComponent<Enemy>();
+                    if (enemy != null)
+                    {
+                        StartCoroutine(enemy.DamageCharacter(damageStrength, 0f));
+                    }
+                }
+            }
         }
-        Vector2 centro = transform.position;
-        Physics2D.OverlapCircle(centro, attackRange);
     }
 
     // Método para obtener la duración de la animación de ataque
