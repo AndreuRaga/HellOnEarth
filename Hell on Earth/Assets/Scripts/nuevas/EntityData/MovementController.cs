@@ -32,6 +32,9 @@ public class MovementController : MonoBehaviour
             movement = Vector2.ClampMagnitude(movement, 1.0f);
             _rb2d.velocity = movement * movementSpeed;
             UpdateState();
+        } else
+        {
+            _rb2d.velocity = Vector2.zero;
         }
     }
 
