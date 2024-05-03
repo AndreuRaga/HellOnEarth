@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerHP
   m_EditorClassIdentifier: 
   currentValue: 0
-  maxValue: 10
+  maxValue: 15

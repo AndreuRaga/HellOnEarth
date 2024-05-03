@@ -47,7 +47,7 @@ public class Player : Character
                     Vector2 playerDirection = GetComponent<MovementController>().movement.normalized;
                     //Debug.Log(playerDirection.ToString());
 
-                    if (Vector2.Dot(distance, playerDirection) > Math.Cos(20*Math.PI/180)) { //Comprueba que Player mira en la dirección del enemigo
+                    if (Vector2.Dot(distance, playerDirection) >= Math.Cos(20*Math.PI/180)) { //Comprueba que Player mira en la dirección del enemigo
                         Debug.Log("HIT");
                         Enemy enemy = enemyCollider.GetComponent<Enemy>();
                         if (enemy != null)
