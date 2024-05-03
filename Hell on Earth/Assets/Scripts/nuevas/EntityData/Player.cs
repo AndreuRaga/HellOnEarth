@@ -30,7 +30,7 @@ public class Player : Character
             movementController.StopMovementTemporarily(GetAttackAnimationDuration());
             //Centro o posición de Player
             Vector2 centro = transform.position;
-            // Definir el filtro para solo colisionar con GameObjects que tengan la etiqueta "Enemy"
+            // Definir el filtro para solo colisionar con GameObjects que tengan la etiqueta "Enemies"
             ContactFilter2D contactFilter = new ContactFilter2D();
             contactFilter.SetLayerMask(LayerMask.GetMask("Enemies"));
             contactFilter.useLayerMask = true;
@@ -39,14 +39,23 @@ public class Player : Character
             Physics2D.OverlapCircle(centro, attackRange, contactFilter, enemyCollidersList);
             if (enemyCollidersList.Count > 0)
             {
-                Vector2 firstColliderPosition = enemyCollidersList[0].transform.position;
-                float distancia = Vector2.Distance(centro, firstColliderPosition);
-                if (distancia <= attackRange) {
-                    Enemy enemy = enemyCollidersList[0].GetComponent<Enemy>();
-                    if (enemy != null)
-                    {
-                        StartCoroutine(enemy.DamageCharacter(damageStrength, 0f));
-                    }
+                foreach (Collider2D enemyCollider in enemyCollidersList) { 
+                    Vector2 enemyPosition = enemyCollider.transform.position;
+                    //Distancia entre Player y enemigo
+                    Vector2 distance = (enemyPosition - centro).normalized;
+                    //Poner aquí la dirección en la que mira Player
+                    Vector2 playerDirection = GetComponent<MovementController>().movement.normalized;
+                    //Debug.Log(playerDirection.ToString());
+
+                    if (Vector2.Dot(distance, playerDirection) > Math.Cos(20*Math.PI/180)) { //Comprueba que Player mira en la dirección del enemigo
+                        Debug.Log("HIT");
+                        Enemy enemy = enemyCollider.GetComponent<Enemy>();
+                        if (enemy != null)
+                        {
+                            StartCoroutine(enemy.DamageCharacter(damageStrength, 0f));
+                        }
+                    } else
+                        Debug.Log("NOT HIT");
                 }
             }
         }

@@ -195,6 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 1
+  movement: {x: 0, y: 0}
 --- !u!114 &5950011793866085661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +210,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
   damageStrength: 2
+  attackRange: 0.5
