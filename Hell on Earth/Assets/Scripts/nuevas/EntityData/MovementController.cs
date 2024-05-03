@@ -32,10 +32,11 @@ public class MovementController : MonoBehaviour
             movement = Vector2.ClampMagnitude(movement, 1.0f);
             _rb2d.velocity = movement * movementSpeed;
             UpdateState();
-        } else
-        {
-            _rb2d.velocity = Vector2.zero;
         }
+        //else
+        //{
+        //    _rb2d.velocity = Vector2.zero;
+        //}
     }
 
     private void UpdateState()
@@ -49,7 +50,6 @@ public class MovementController : MonoBehaviour
         _anim.SetBool("isWalking", !stopped);
         _anim.SetFloat("xDir", lastDirection.x);
         _anim.SetFloat("yDir", lastDirection.y);
-        //_spriteRend.flipX = (movement.x < 0);
     }
 
     // Método para detener temporalmente el movimiento del jugador
@@ -57,6 +57,7 @@ public class MovementController : MonoBehaviour
     {
         // Desactivar el movimiento del jugador
         canMove = false;
+        _rb2d.velocity = Vector2.zero;
         // Iniciar una corutina para reactivar el movimiento después de la duración especificada
         StartCoroutine(ReactivateMovement(duration));
     }
