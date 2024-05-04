@@ -6,39 +6,24 @@ using UnityEngine;
 public class EnemyDeaths : MonoBehaviour
 {
     public TextMeshProUGUI percentage;
-    public int enemiesDead = 0;
-    public int enemyCount = 0;
-    public GameObject portal;
+    public LevelProgress LevelProgress;
 
     void Start()
     {
-        portal.SetActive(false);
         // Encontrar todos los GameObjects con la etiqueta "Enemy"
         GameObject[] enemyList = GameObject.FindGameObjectsWithTag("Enemy");
-        enemyCount = enemyList.Length;
+        LevelProgress.enemyCount = enemyList.Length;
         //Debug.Log("Cantidad de enemigos: " + enemyCount);
     }
     void Update()
     {
-        if (enemyCount <= 0)
+        if (LevelProgress.enemyCount <= 0)
         {
             percentage.text = "NE";
         }
         else
         {
-            percentage.text = GetPercentageNumber().ToString() + "%";
+            percentage.text = LevelProgress.percentageKilled.ToString() + "%";
         }
-        if (GetPercentageNumber() >= 33)
-        {
-            portal.SetActive(true);
-        }
-    }
-    private int GetPercentageNumber()
-    {
-        if (enemyCount > 0)
-        {
-            return (enemiesDead / enemyCount) * 100;
-        }
-        return 100;
     }
 }

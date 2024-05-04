@@ -7,13 +7,13 @@ public class LevelProgress : ScriptableObject
 {
     public int enemiesKilled;
     public int enemyCount;
-    public int percentageDefeated
+    public float percentageKilled
     {
         get
         {
             if (enemyCount > 0)
             {
-                return (enemiesKilled / enemyCount) * 100;
+                return Mathf.Round(((float) enemiesKilled / enemyCount) * 100);
             }
             return 100;
         }
