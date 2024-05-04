@@ -4,42 +4,19 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    private bool playerInRange = false;
-    public GameObject portalEntrance;
+    public GameObject portalArc;
+    public LevelProgress LevelProgress;
 
     private void Start()
     {
-        portalEntrance.SetActive(false);
-    }
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        // Check if the player enters the trigger zone
-        if (other.gameObject.CompareTag("Player"))
-        {
-            playerInRange = true;
-            portalEntrance.SetActive(true);
-            //GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 1);
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D other)
-    {
-        // Check if the player exits the trigger zone
-        if (other.gameObject.CompareTag("Player"))
-        {
-            playerInRange = false;
-            portalEntrance.SetActive(false);
-            //GetComponent<SpriteRenderer>().color = Color.white;
-        }
+        portalArc.SetActive(false);
     }
 
     void Update()
     {
-        // Check if the player is in range and the left mouse button is pressed
-        if (playerInRange && Input.GetMouseButtonDown(0))
+        if (LevelProgress.percentageKilled >= 33)
         {
-            //Viajar al siguiente nivel
-            GameManager.Instance.GoToNextLevel(0f);
+            portalArc.SetActive(true);
         }
     }
 }
