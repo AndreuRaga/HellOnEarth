@@ -475,6 +475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
+  levelProgress: {fileID: 0}
   damageStrength: 0
   attackRange: 0
 --- !u!1 &4873873512109249108
