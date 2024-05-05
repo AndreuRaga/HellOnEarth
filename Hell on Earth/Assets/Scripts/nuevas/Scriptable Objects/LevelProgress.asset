@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f2a12447872134fbd6a0bb77e55b5c, type: 3}
   m_Name: LevelProgress
   m_EditorClassIdentifier: 
-  enemiesKilled: 1
-  enemyCount: 0
+  enemiesKilled: 0
+  enemyCount: 3

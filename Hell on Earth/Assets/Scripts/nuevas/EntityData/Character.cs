@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     public StatPoints hitPoints;
+    public LevelProgress levelProgress;
     public virtual IEnumerator DamageCharacter(int damage, float interval)
     {
         while (true)
@@ -29,6 +30,10 @@ public class Character : MonoBehaviour
     }
     public virtual void KillCharacter()
     {
+        if (levelProgress != null && gameObject.CompareTag("Enemy"))
+        {
+            levelProgress.enemiesKilled++;
+        }
         Destroy(gameObject);
     }
     public virtual void ResetCharacter()

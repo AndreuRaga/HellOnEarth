@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   percentage: {fileID: 1988654643992359523}
-  LevelProgress: {fileID: 11400000, guid: 978a81395d1a99647af02bf9b4592423, type: 2}
+  levelProgress: {fileID: 11400000, guid: 978a81395d1a99647af02bf9b4592423, type: 2}
 --- !u!1 &4563268562966499492
 GameObject:
   m_ObjectHideFlags: 0

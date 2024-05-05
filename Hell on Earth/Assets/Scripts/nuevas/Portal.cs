@@ -5,7 +5,7 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     public GameObject portalArc;
-    public LevelProgress LevelProgress;
+    public LevelProgress levelProgress;
 
     private void Start()
     {
@@ -14,7 +14,7 @@ public class Portal : MonoBehaviour
 
     void Update()
     {
-        if (LevelProgress.percentageKilled >= 33)
+        if (levelProgress.percentageKilled >= 33)
         {
             portalArc.SetActive(true);
         }
