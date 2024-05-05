@@ -60,7 +60,12 @@ public class GameManager : Singleton<GameManager>
     {
         SceneManager.LoadScene(MAIN_MENU_SCENE_INDEX);
     }
-
+    public AudioManager audioManager;
+    public override void Awake()
+    {
+        base.Awake();
+        audioManager = GetComponent<AudioManager>();
+    }
     void Start()
     {
         SetupScene();
