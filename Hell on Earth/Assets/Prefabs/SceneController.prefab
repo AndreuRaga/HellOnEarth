@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103a3f7a8a31d0c458fd6ae6e24fd8ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstLevelTheme: {fileID: 8300000, guid: 5ccaabe687b6ae445a9a57c70d9b9725, type: 3}
+  secondLevelTheme: {fileID: 8300000, guid: 08a2b8430fbbe8e4ca374228741d58a2, type: 3}
