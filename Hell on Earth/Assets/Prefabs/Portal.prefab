@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portalEntrance: {fileID: 1238012823309346377}
+  portalTeleport: {fileID: 8300000, guid: 4f789a24d76c8e44aa18880d320cdb8a, type: 3}
 --- !u!1 &8318436264569292669
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +263,7 @@ Transform:
   m_Children:
   - {fileID: 4973311743691578946}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &8099392354531096975
 SortingGroup:
@@ -290,3 +291,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portalArc: {fileID: 6786905268249897641}
   levelProgress: {fileID: 11400000, guid: 978a81395d1a99647af02bf9b4592423, type: 2}
+  portalActivated: {fileID: 8300000, guid: 729e5786fe7c8054a961f4d320048807, type: 3}

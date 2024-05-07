@@ -6,6 +6,7 @@ public class PortalArc : MonoBehaviour
 {
     public GameObject portalEntrance;
     private bool playerInRange = false;
+    public AudioClip portalTeleport;
     void Start()
     {
         portalEntrance.SetActive(false);
@@ -32,6 +33,10 @@ public class PortalArc : MonoBehaviour
     {
         if (playerInRange && Input.GetMouseButtonDown(0))
         {
+            if (portalTeleport != null)
+            {
+                GameManager.Instance.audioManager.PlaySound(portalTeleport);
+            }
             //Viajar al siguiente nivel
             GameManager.Instance.GoToNextLevel(0f);
         }

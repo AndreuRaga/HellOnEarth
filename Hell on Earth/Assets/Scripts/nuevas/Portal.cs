@@ -6,6 +6,7 @@ public class Portal : MonoBehaviour
 {
     public GameObject portalArc;
     public LevelProgress levelProgress;
+    public AudioClip portalActivated;
 
     private void Start()
     {
@@ -16,6 +17,10 @@ public class Portal : MonoBehaviour
     {
         if (levelProgress.percentageKilled >= 33)
         {
+            if (portalActivated != null)
+            {
+                GameManager.Instance.audioManager.PlaySound(portalActivated);
+            }
             portalArc.SetActive(true);
         }
     }
