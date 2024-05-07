@@ -6,6 +6,8 @@ public class Character : MonoBehaviour
 {
     public StatPoints hitPoints;
     public LevelProgress levelProgress;
+    public AudioClip enemyDeath;
+    public AudioClip playerDeath;
     public virtual IEnumerator DamageCharacter(int damage, float interval)
     {
         while (true)
@@ -32,7 +34,15 @@ public class Character : MonoBehaviour
     {
         if (levelProgress != null && gameObject.CompareTag("Enemy"))
         {
+            if (enemyDeath != null)
+            {
+                GameManager.Instance.audioManager.PlaySound(enemyDeath);
+            }
             levelProgress.enemiesKilled++;
+        }
+        else if (playerDeath != null && gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.audioManager.PlaySound(playerDeath);
         }
         Destroy(gameObject);
     }

@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2277654407185901019
 SpriteRenderer:
@@ -209,5 +209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: {fileID: 11400000, guid: d10693cee24cd76428eec4b775e719eb, type: 2}
+  levelProgress: {fileID: 0}
+  enemyDeath: {fileID: 0}
+  playerDeath: {fileID: 8300000, guid: e1c44c9a78bd8074a8d86c3b55b68889, type: 3}
   damageStrength: 2
   attackRange: 0.5
