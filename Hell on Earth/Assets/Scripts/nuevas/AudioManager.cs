@@ -5,6 +5,23 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource musicSource, sfxSource;
+    public void PlayMusic(AudioClip clip)
+    {
+        if (musicSource.isPlaying && musicSource.clip == clip)
+            return; // do not restart the song if it is already playing
+        musicSource.clip = clip;
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+    public void StopMusic()
+    {
+        musicSource.Stop();
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        sfxSource.PlayOneShot(clip);
+    }
     private void Start()
     {
         SetMasterVolume(PlayerPrefs.GetFloat(MASTER_VOLUME_PARAM, 1f));
@@ -25,7 +42,6 @@ public class AudioManager : MonoBehaviour
     {
         return Mathf.Pow(10f, logarithmic / 20f);
     }
-    [SerializeField] private AudioSource musicSource, sfxSource;
     [SerializeField] private AudioMixer mixer;
     private const string MASTER_VOLUME_PARAM = "MasterVolume";
     private const string MUSIC_VOLUME_PARAM = "MusicVolume";

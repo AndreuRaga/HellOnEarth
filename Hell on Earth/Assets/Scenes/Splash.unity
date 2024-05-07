@@ -259,6 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef328634f3955e74c8f09f7763db52f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titleTheme: {fileID: 8300000, guid: 12edac28fc74b1040b837bed5096c58a, type: 3}
   waitTime: 10
 --- !u!1 &984724586
 GameObject:

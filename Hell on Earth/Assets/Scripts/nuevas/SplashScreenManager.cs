@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class SplashScreenManager : MonoBehaviour
 {
-    //public AudioClip splashTheme;
+    public AudioClip titleTheme;
     public float waitTime = 10f;
     private float startedAt;
     private void Start()
     {
-        //if (splashTheme != null) GameManager.Instance.audioManager.PlayMusic(splashTheme);
+        if (titleTheme != null)
+        {
+            GameManager.Instance.audioManager.PlayMusic(titleTheme);
+        }
         startedAt = Time.time;
     }
     void Update()

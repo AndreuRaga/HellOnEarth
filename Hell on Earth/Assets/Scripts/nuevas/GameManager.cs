@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(AudioManager))]
 public class GameManager : Singleton<GameManager>
 {
     public float interLevelWaitTime = 3f;
