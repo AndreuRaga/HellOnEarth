@@ -7,7 +7,6 @@ public class PauseMenu : MonoBehaviour
     public GameObject optionsMenu;
     public void OnGoToMainMenu()
     {
-        Debug.Log("pulsado");
         GameManager.Instance.pause = false;
         GameManager.Instance.GoToMainMenu();
     }

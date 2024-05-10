@@ -37,6 +37,7 @@ public class GameManager : Singleton<GameManager>
         #endif
     }
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] GameObject optionsMenu;
     private bool paused = false;
     public bool pause {
         get {
@@ -53,6 +54,7 @@ public class GameManager : Singleton<GameManager>
             {
                 Time.timeScale = 1;
                 pauseMenu.SetActive(false);
+                optionsMenu.SetActive(false) ;
             }
         }
     }
