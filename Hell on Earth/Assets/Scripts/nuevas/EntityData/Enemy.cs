@@ -6,6 +6,8 @@ public class Enemy : Character
 {
     public int damageStrength;
     Coroutine damageCoroutine;
+    public LevelProgress levelProgress;
+    public AudioClip enemyDeath;
     private void OnEnable()
     {// Llamada cada vez que se habilita o activa el gameobject
         hitPoints = Instantiate(hitPoints);
@@ -32,5 +34,17 @@ public class Enemy : Character
                 damageCoroutine = null;
             }
         }
+    }
+    public override void KillCharacter()
+    {
+        if (levelProgress != null)
+        {
+            if (enemyDeath != null)
+            {
+                GameManager.Instance.audioManager.PlaySound(enemyDeath);
+            }
+            levelProgress.enemiesKilled++;
+        }
+        base.KillCharacter();
     }
 }

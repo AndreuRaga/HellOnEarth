@@ -8,6 +8,7 @@ public class Player : Character
     public int damageStrength;
     public float attackRange;
     private Animator animator;
+    public AudioClip playerDeath;
 
     private MovementController movementController; // Referencia al controlador de movimiento
 
@@ -74,5 +75,13 @@ public class Player : Character
             }
         }
         return 0f;
+    }
+    public override void KillCharacter()
+    {
+        if (playerDeath != null)
+        {
+            GameManager.Instance.audioManager.PlaySound(playerDeath);
+        }
+        base.KillCharacter();
     }
 }
