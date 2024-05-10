@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
 {
-    //public AudioClip mainMenuTheme;
     public GameObject creditsPanel;
     public GameObject optionsMenu;
+    public AudioClip titleTheme;
     private void Start()
     {
+        if (titleTheme != null)
+        {
+            GameManager.Instance.audioManager.PlayMusic(titleTheme);
+        }
         creditsPanel.SetActive(false);
         optionsMenu.SetActive(false);
-        //if (mainMenuTheme != null)
-        //    GameManager.Instance.audioManager.PlayMusic(mainMenuTheme);
     }
     public void StartGame()
     {
