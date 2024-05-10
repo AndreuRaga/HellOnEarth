@@ -6,6 +6,10 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioSource musicSource, sfxSource;
+    [SerializeField] private AudioMixer mixer;
+    private const string MASTER_VOLUME_PARAM = "MasterVolume";
+    private const string MUSIC_VOLUME_PARAM = "MusicVolume";
+    private const string SFX_VOLUME_PARAM = "SFXVolume";
     public void PlayMusic(AudioClip clip)
     {
         if (musicSource.isPlaying && musicSource.clip == clip)
@@ -42,10 +46,6 @@ public class AudioManager : MonoBehaviour
     {
         return Mathf.Pow(10f, logarithmic / 20f);
     }
-    [SerializeField] private AudioMixer mixer;
-    private const string MASTER_VOLUME_PARAM = "MasterVolume";
-    private const string MUSIC_VOLUME_PARAM = "MusicVolume";
-    private const string SFX_VOLUME_PARAM = "SFXVolume";
     public float GetMasterVolume()
     {
         mixer.GetFloat(MASTER_VOLUME_PARAM, out float vol);
@@ -73,5 +73,4 @@ public class AudioManager : MonoBehaviour
     {
         mixer.SetFloat(SFX_VOLUME_PARAM, linToLog(volume));
     }
-
 }
