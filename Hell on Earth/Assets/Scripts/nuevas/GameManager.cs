@@ -69,21 +69,4 @@ public class GameManager : Singleton<GameManager>
         base.Awake();
         audioManager = GetComponent<AudioManager>();
     }
-    void Start()
-    {
-        SetupScene();
-    }
-
-    void SetupScene()
-    {
-        SpawnPlayer();
-    }
-    public SpawnPoint playerSpawnPoint;
-    void SpawnPlayer()
-    {
-        if (playerSpawnPoint != null)
-        {
-            GameObject player = playerSpawnPoint.SpawnObject();
-        }
-    }
 }
