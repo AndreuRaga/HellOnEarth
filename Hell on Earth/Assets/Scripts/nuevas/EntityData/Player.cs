@@ -84,4 +84,22 @@ public class Player : Character
         }
         base.KillCharacter();
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("CanBePickedUp"))
+        {
+            HealthPotion healthPotion = other.gameObject.GetComponent<HealthPotion>();
+            if (healthPotion != null)
+            {
+                Debug.Log("Poción");
+                AdjustHitPoints(healthPotion.hpRestored);
+                other.gameObject.SetActive(false);
+            }
+        }
+    }
+    public void AdjustHitPoints(int amount)
+    {
+        hitPoints.currentValue += amount;
+        Debug.Log("Health: " + hitPoints.currentValue);
+    }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Interactable
+  - CanBePickedUp
   layers:
   - Default
   - TransparentFX
