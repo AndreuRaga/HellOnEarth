@@ -91,15 +91,16 @@ public class Player : Character
             HealthPotion healthPotion = other.gameObject.GetComponent<HealthPotion>();
             if (healthPotion != null)
             {
-                Debug.Log("Poción");
-                AdjustHitPoints(healthPotion.hpRestored);
-                other.gameObject.SetActive(false);
+                if (hitPoints.currentValue < hitPoints.maxValue)
+                {
+                    AdjustHitPoints(healthPotion.hpRestored);
+                    other.gameObject.SetActive(false);
+                }
             }
         }
     }
     public void AdjustHitPoints(int amount)
     {
         hitPoints.currentValue += amount;
-        Debug.Log("Health: " + hitPoints.currentValue);
     }
 }
