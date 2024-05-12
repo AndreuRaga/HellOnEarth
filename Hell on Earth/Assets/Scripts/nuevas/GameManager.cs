@@ -63,6 +63,10 @@ public class GameManager : Singleton<GameManager>
     {
         SceneManager.LoadScene(MAIN_MENU_SCENE_INDEX);
     }
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     public AudioManager audioManager;
     public override void Awake()
     {

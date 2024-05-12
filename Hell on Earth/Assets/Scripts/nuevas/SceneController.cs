@@ -28,5 +28,15 @@ public class SceneController : MonoBehaviour
         {
             GameManager.Instance.pause = !GameManager.Instance.pause;
         }
+        if (!PlayerExists())
+        {
+            GameManager.Instance.pause = true;
+        }
+    }
+    private bool PlayerExists()
+    {
+        // Buscar todos los GameObjects con la etiqueta "Player" en la escena
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        return players.Length > 0;
     }
 }

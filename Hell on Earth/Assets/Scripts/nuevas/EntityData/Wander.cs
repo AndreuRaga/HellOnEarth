@@ -80,7 +80,7 @@ public class Wander : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Seguir");
+        //Debug.Log("Seguir");
         if (other.CompareTag("Player") && followPlayer)
         {
             currentSpeed = pursuitSpeed;
