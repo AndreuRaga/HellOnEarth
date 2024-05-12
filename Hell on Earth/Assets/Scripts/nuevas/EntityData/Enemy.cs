@@ -20,7 +20,7 @@ public class Enemy : Character
             Player player = other.gameObject.GetComponent<Player>();
             if (damageCoroutine == null)
             {
-                damageCoroutine = StartCoroutine(player.DamageCharacter(damageStrength, 1.0f));
+                damageCoroutine = StartCoroutine(player.DamageCharacter(damageStrength, 1.5f));
             }
         }
     }
