@@ -9,6 +9,7 @@ public class Player : Character
     public float attackRange;
     private Animator animator;
     public AudioClip playerDeath;
+    private bool canAttack = true;
 
     private MovementController movementController; // Referencia al controlador de movimiento
 
@@ -23,8 +24,9 @@ public class Player : Character
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (canAttack && Input.GetMouseButtonDown(0))
         {
+            canAttack = false;
             // Iniciar la animación de ataque
             animator.SetTrigger("Attack");
             // Detener temporalmente el movimiento del jugador durante la animación de ataque
@@ -59,9 +61,14 @@ public class Player : Character
                         Debug.Log("NOT HIT");
                 }
             }
+            StartCoroutine(ReactivateAttack());
         }
     }
-
+    IEnumerator ReactivateAttack()
+    {
+        yield return new WaitForSeconds(GetAttackAnimationDuration());
+        canAttack = true;
+    }
     // Método para obtener la duración de la animación de ataque
     private float GetAttackAnimationDuration()
     {
