@@ -102,5 +102,9 @@ public class Player : Character
     public void AdjustHitPoints(int amount)
     {
         hitPoints.currentValue += amount;
+        if (hitPoints.currentValue > hitPoints.maxValue)
+        {
+            hitPoints.currentValue = hitPoints.maxValue;
+        }
     }
 }
