@@ -10,7 +10,7 @@ public class MovementController : MonoBehaviour
     Animator _anim;
     SpriteRenderer _spriteRend;
     // Variable para almacenar la última dirección válida
-    Vector2 lastDirection = Vector2.zero;
+    public Vector2 lastDirection = Vector2.zero;
 
     // Variable para controlar si el jugador puede moverse
     private bool canMove = true;

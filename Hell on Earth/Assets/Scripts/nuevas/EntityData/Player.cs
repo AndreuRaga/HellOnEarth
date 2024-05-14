@@ -47,7 +47,7 @@ public class Player : Character
                     //Distancia entre Player y enemigo
                     Vector2 distance = (enemyPosition - centro).normalized;
                     //Poner aquí la dirección en la que mira Player
-                    Vector2 playerDirection = GetComponent<MovementController>().movement.normalized;
+                    Vector2 playerDirection = movementController.lastDirection.normalized;
                     //Debug.Log(playerDirection.ToString());
 
                     if (Vector2.Dot(distance, playerDirection) >= Math.Cos(45*Math.PI/180)) { //Comprueba que Player mira en la dirección del enemigo
