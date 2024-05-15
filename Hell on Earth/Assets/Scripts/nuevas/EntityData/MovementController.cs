@@ -8,7 +8,6 @@ public class MovementController : MonoBehaviour
     public Vector2 movement = new Vector2();
     Rigidbody2D _rb2d;
     Animator _anim;
-    SpriteRenderer _spriteRend;
     // Variable para almacenar la última dirección válida
     public Vector2 lastDirection = Vector2.zero;
 
@@ -19,7 +18,6 @@ public class MovementController : MonoBehaviour
     {
         _rb2d = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        _spriteRend = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
